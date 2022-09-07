@@ -42,7 +42,7 @@
 													<p class="small-text"> We put the mental in instrumental and<br> the cool in musicool. </p>
 												</div>
 												<div class="intro-layer" data-animation="fadeInUp">
-													<p class="topmargin_30"> <a href="shop-right.php" class="theme_button inverse min_width_button">
+													<p class="topmargin_30"> <a href="index.php?p=book-artist" class="theme_button inverse min_width_button">
 												Official merch
 											</a> </p>
 												</div>

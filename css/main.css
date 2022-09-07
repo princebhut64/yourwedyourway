@@ -6696,6 +6696,8 @@ body.boxed {
 
 	.bottom_overlap_logo .logo img {
 		background-color: #fff;
+		height: 144px;
+    width: 260px;
 	}
 
 	.ds .bottom_overlap_logo .logo img {

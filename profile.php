@@ -52,10 +52,62 @@ $r = mysql_fetch_assoc($q);
 			<section class="ls section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
-						<form method="post" class="col-sm-6" enctype="multipart/form-data">
-							<div>
-								<div class="form-group validate-required validate-email" id="address_field"> 
-									<label for="email" class="control-label">
+						<form method="post" enctype="multipart/form-data">
+							<div class="col-sm-6">
+								<div class="form-group validate-required" id="fname_field">
+									 <label for="fname" class="control-label">
+										<span class="grey">First Name:</span>
+										<span class="required">*</span>
+									</label>
+									<?php if($r['fname']) { ?>
+										<input type="text" class="form-control " name="fname" id="fname" value="<?php echo $r['fname'] ?>"> 
+									<?php } else { ?>  
+										<input type="text" class="form-control " name="fname" id="fname" value=""> 
+									<?php } ?>
+								</div>
+							</div>
+
+							<div class="col-sm-6">
+								<div class="form-group validate-required" id="lname_field">
+									 <label for="lname" class="control-label">
+										<span class="grey">Last Name:</span>
+										<span class="required">*</span>
+									</label>
+									<?php if($r['lname']) { ?>
+										<input type="text" class="form-control " name="lname" id="lname" value="<?php echo $r['lname'] ?>"> 
+									<?php } else { ?>  
+										<input type="text" class="form-control " name="lname" id="lname" value=""> 
+									<?php } ?>
+								</div>
+							</div>
+
+							<div class="col-sm-6">
+								<div class="form-group validate-required" id="email_field">
+									 <label for="email" class="control-label">
+										<span class="grey">Email:</span>
+										<span class="required">*</span>
+									</label>
+									<?php if($r['email']) { ?>
+										<input type="text" class="form-control " name="email" id="email" value="<?php echo $r['email'] ?>"> 
+									<?php } else { ?>  
+										<input type="text" class="form-control " name="email" id="email" value=""> 
+									<?php } ?>
+								</div>
+							</div>
+
+							<div class="col-sm-6">
+								<div class="form-group validate-required" id="profile_field">
+									 <label for="profile" class="control-label">
+										<span class="grey">Profile:</span>
+										<span class="required">*</span>
+									</label> 
+                                    <input type="file" class="form-control" name="profile_pic" id="profile_pic">
+								</div>
+							</div>
+
+							<div class="col-sm-12">
+								<div class="form-group validate-required" id="address_field"> 
+									<label for="address" class="control-label">
 										<span class="grey">Address:</span>
 										<span class="required">*</span>
 									</label>
@@ -66,22 +118,8 @@ $r = mysql_fetch_assoc($q);
 									<?php } ?>
 								</div>
 							</div>
-							
-							<div>
-								<div class="form-group validate-required" id="postcode_field">
-									 <label for="postcode" class="control-label">
-										<span class="grey">Post Code:</span>
-										<span class="required">*</span>
-									</label>
-									<?php if($r['postcode']) { ?>
-										<input type="text" class="form-control " name="postcode" id="postcode" value="<?php echo $r['postcode'] ?>"> 
-									<?php } else { ?>  
-										<input type="text" class="form-control " name="postcode" id="postcode" value=""> 
-									<?php } ?>
-								</div>
-							</div>
 
-                            <div>
+							<div class="col-sm-6">
 								<div class="form-group validate-required" id="city_field">
 									 <label for="city" class="control-label">
 										<span class="grey">City:</span>
@@ -95,7 +133,35 @@ $r = mysql_fetch_assoc($q);
 								</div>
 							</div>
 
-                            <div>
+							<div class="col-sm-6">
+								<div class="form-group validate-required" id="state_field">
+									 <label for="state" class="control-label">
+										<span class="grey">State:</span>
+										<span class="required">*</span>
+									</label> 
+									<?php if($r['State']) { ?>
+										<input type="text" class="form-control " name="state" id="state" value="<?php echo $r['State'] ?>"> 
+									<?php } else { ?>
+										<input type="text" class="form-control " name="state" id="state" value="">
+									<?php } ?> 
+								</div>
+							</div>
+							
+							<div class="col-sm-6">
+								<div class="form-group validate-required" id="postcode_field">
+									 <label for="postcode" class="control-label">
+										<span class="grey">Post Code:</span>
+										<span class="required">*</span>
+									</label>
+									<?php if($r['postcode']) { ?>
+										<input type="text" class="form-control " name="postcode" id="postcode" value="<?php echo $r['postcode'] ?>"> 
+									<?php } else { ?>  
+										<input type="text" class="form-control " name="postcode" id="postcode" value=""> 
+									<?php } ?>
+								</div>
+							</div>
+
+                            <div class="col-sm-6">
 								<div class="form-group validate-required" id="country_field">
 									 <label for="country" class="control-label">
 										<span class="grey">Country:</span>
@@ -109,21 +175,35 @@ $r = mysql_fetch_assoc($q);
 								</div>
 							</div>
 
-                            <div>
-								<div class="form-group validate-required" id="state_field">
-									 <label for="state" class="control-label">
-										<span class="grey">State:</span>
+							<div class="col-sm-6">
+								<div class="form-group validate-required" id="contactno_field">
+									 <label for="contactno" class="control-label">
+										<span class="grey">Phone:</span>
 										<span class="required">*</span>
 									</label> 
-									<?php if($r['State']) { ?>
-										<input type="text" class="form-control " name="state" id="state" value="<?php echo $r['State'] ?>"> 
+									<?php if($r['contactno']) { ?>
+										<input type="text" class="form-control " name="contactno" id="contactno" value="<?php echo $r['contactno'] ?>"> 
 									<?php } else { ?>
-										<input type="text" class="form-control " name="state" id="state" value="">
-									<?php } ?> 
+										<input type="text" class="form-control " name="contactno" id="contactno" value=""> 
+									<?php } ?>
 								</div>
 							</div>
 
-                            <div>
+							<div class="col-sm-6">
+								<div class="form-group validate-required" id="fax_field">
+									 <label for="fax" class="control-label">
+										<span class="grey">Fax:</span>
+										<span class="required">*</span>
+									</label> 
+									<?php if($r['fax']) { ?>
+										<input type="text" class="form-control " name="fax" id="fax" value="<?php echo $r['fax'] ?>"> 
+									<?php } else { ?>
+										<input type="text" class="form-control " name="fax" id="fax" value=""> 
+									<?php } ?>
+								</div>
+							</div>
+
+                            <div class="col-sm-6">
 								<div class="form-group validate-required" id="category_field">
 									 <label for="category" class="control-label">
 										<span class="grey">Category:</span>
@@ -142,7 +222,7 @@ $r = mysql_fetch_assoc($q);
 								</div>
 							</div>
 
-                            <div>
+                            <div class="col-sm-6">
 								<div class="form-group validate-required" id="subcategory_field">
 									 <label for="subcategory" class="control-label">
 										<span class="grey">Sub Category:</span>
@@ -154,7 +234,7 @@ $r = mysql_fetch_assoc($q);
 								</div>
 							</div>
 
-                            <div>
+                            <div class="col-sm-12">
 								<div class="form-group validate-required" id="description_field">
 									 <label for="state" class="control-label">
 										<span class="grey">Description:</span>
@@ -167,17 +247,6 @@ $r = mysql_fetch_assoc($q);
 									<?php } ?>
 								</div>
 							</div>
-
-                            <div>
-								<div class="form-group validate-required" id="profile_field">
-									 <label for="profile" class="control-label">
-										<span class="grey">Profile:</span>
-										<span class="required">*</span>
-									</label> 
-                                    <input type="file" class="form-control" name="profile_pic" id="profile_pic">
-								</div>
-							</div>
-
 
 							<div class="col-sm-12"> 
 								<input type="submit" class="theme_button wide_button color topmargin_40" name="submit" value="Submit">

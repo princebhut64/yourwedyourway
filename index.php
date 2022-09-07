@@ -19,7 +19,7 @@
 
 <!-- Mirrored from html.modernwebtemplates.com/thecrowd/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Mar 2021 14:42:56 GMT -->
 <head>
-	<title>Crowd</title>
+	<title>Artist Hub</title>
 	<meta charset="utf-8">
 	<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -85,29 +85,38 @@
 	                </a> </div>
 							<!-- header toggler --><span class="toggle_menu"><span></span></span>
 						</div>
-						<div class="col-sm-5 col-sm-pull-2 hidden-xs"> <span class="small-text rightpadding_20 hidden-sm">follow us:</span> <span class="divided-content">
+						<div class="col-sm-5 col-sm-pull-2 hidden-xs"> <span class="rightpadding_20 hidden-sm">Follow Us:</span> <span class="divided-content">
 					<span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>							<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </span>
 						</div>
 						<div class="col-sm-5 text-left text-sm-right">
-							<div class="divided-content small-text greylinks color2">
+							<div class="divided-content greylinks color2">
 								<div>
 									<div class="dropdown"> 
 										<a href="#0" id="account-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My account
 											<span class="caret"></span>
 	                					</a>
 										<ul class="dropdown-menu" aria-labelledby="account-dropdown">
-											<li> <a href="index.php?p=register">Sign Up</a> </li>
+											<!-- <li> <a href="login.php">Sign Up</a> </li> -->
 											<?php
 												if($_SESSION['udata']['id']){
 											?>
-												<li> <a href="index.php?p=profile">Profile</a> </li>
-												<li> <a href="index.php?logout">Sign Out</a> </li>
+												<li> <a href="index.php?p=profile">Profile </a> </li>
 											<?php } else { ?>
-												<li> <a href="index.php?p=login">Sign In</a> </li>
+												<li> <a href="login.php">Sign Up</a> <li>
+												<li> <a href="login.php">Sign In</a> </li>
 											<?php } ?>
 										</ul>
 									</div>
 								</div>
+								<?php
+											if($_SESSION['udata']['id']){
+										?>
+											&nbsp;
+											<?php echo $_SESSION['udata']['fname'] . " " . $_SESSION['udata']['lname'] ?>
+											<a href="index.php?logout">	
+												<span class="fa fa-sign-out"></span> LOG OUT
+											</a>
+										<?php } ?>
 								<!-- <div class="hidden-sm hidden-xs"> 
 									<a href="index.php?p=shop-cart-right" class="cart-button">
 										<i class="fa fa-shopping-basket" aria-hidden="true"></i>
@@ -144,32 +153,30 @@
 							<nav class="mainmenu_wrapper">
 								<ul class="mainmenu nav sf-menu">
 									<li class="active"> <a href="index.php">Home</a> </li>
-									
-									<!-- eof pages -->
 									<li> <a href="index.php?p=albums">free albums</a> </li>
-
-									<li> <a href="#">Artists</a>
+									<?php if($_SESSION['udata']['role'] == 'user') { ?>
+									<li> <a href="#">book artists</a>
 										<ul>
-											<li> <a href="index.php?p=shop-right">book artist</a> </li>
-											<li> <a href="index.php?p=register">artist registation</a> </li>
+											<li> <a href="index.php?p=book-artist">book artist</a> </li>	
 										</ul>
 									</li>
-
-									<!-- eof features -->
-									<!-- gallery -->
+									<?php } ?>
+									<?php if($_SESSION['udata']['role'] == 'artist') { ?>
+									<li> <a href="#">artists</a>
+										<ul>
+											<li> <a href="index.php?p=profile">artist registration</a> </li>	
+										</ul>
+									</li>
+									<?php } ?>
 									<li> <a href="index.php?p=gallery-tile">Photos</a> </li>
-									<li> <a href="index.php?p=shop-right">Store</a> </li>
-									<!-- eof shop -->
-									<!-- contacts -->
 									<li> <a href="index.php?p=contact">Contact us</a> </li>
-									<!-- eof contacts -->
+									<?php if($_SESSION['udata']['role'] == 'artist') { ?>
+										<li> <a href="index.php?p=userlist">user list</a> </li>
+									<?php } ?>
 									<li> <a href="index.php?p=about">more</a>
 										<ul>
-											<!-- eof features -->
 											<li> <a href="index.php?p=about">About</a> </li>
-											<!-- events -->
 											<li> <a href="index.php?p=events-left">Events</a> </li>
-											<!-- eof events -->
 											<li> <a href="index.php?p=team">Team</a> </li>
 											<li> <a href="index.php?p=comingsoon">Comingsoon</a> </li>
 											<li> <a href="index.php?p=faq">FAQ</a> </li>
