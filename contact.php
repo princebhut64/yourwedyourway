@@ -1,3 +1,11 @@
+<?php
+if(isset($_POST['submit'])){
+	$sql1 = "INSERT INTO contact_us (name, email, phone, message,subject) VALUES ('".$_POST['name']."','".$_POST['email']."','".$_POST['phone']."','".$_POST['subject']."','".$_POST['message']."')";
+	$q1 = mysql_query($sql1) or die(mysql_error().$sql1);
+	// echo '<script>alert("Your Record Are Successfully Save"); window.location="index.php";</script>';
+}
+?>
+
 
 			<section class="page_breadcrumbs cs gradient section_padding_top_25 section_padding_bottom_25 table_section table_section_md">
 				<div class="container">
@@ -21,8 +29,10 @@
 				<div class="map_marker_description">
 					<h3>Map Title</h3>
 					<p>Map description text</p>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14632.357517526192!2d72.4577363!3d23.5292875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1fe01d9ab30482!2sGanpat%20University!5e0!3m2!1sen!2sin!4v1617052767128!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-					<!-- <img class="map_marker_icon" src="images/map_marker_icon.png" alt=""> --></div>
+					<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14632.357517526192!2d72.4577363!3d23.5292875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1fe01d9ab30482!2sGanpat%20University!5e0!3m2!1sen!2sin!4v1617052767128!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+					
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2081.260396395048!2d70.45617447874444!3d21.54438480037842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39580215f891e231%3A0x8b7b07ea65bd626b!2sDr.%20Subhash%20University!5e0!3m2!1sen!2sin!4v1662763021948!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<!-- <img class="map_marker_icon" src="images/map_marker_icon.png" alt=""> --></div>
 			</section>
 			<section class="ls columns_padding_25 section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
@@ -32,6 +42,7 @@
 						</div>
 					</div>
 					<div class="row">
+					<form method="post">
 						<div class="col-md-8 to_animate" data-animation="scaleAppear">
 							<form class="contact-form columns_padding_5 bottommargin_40" method="post" action="">
 								<div class="row">
@@ -51,39 +62,40 @@
 										<div class="contact-form-message form-group bottommargin_0"> <label for="message">Message</label> <i class="fa fa-comment highlight2" aria-hidden="true"></i> <textarea aria-required="true" rows="3" cols="45" name="message" id="message" class="form-control" placeholder="Message"></textarea> </div>
 									</div>
 									<div class="col-sm-12 bottommargin_0">
-										<div class="contact-form-submit topmargin_10"> <button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button color wide_button margin_0">Send message</button> </div>
+										<div class="contact-form-submit topmargin_10"> <button type="submit" id="contact_form_submit" name="submit" class="theme_button color wide_button margin_0">Send message</button> </div>
 									</div>
 								</div>
 							</form>
 						</div>
+					</form>
 						<div class="col-md-4 to_animate" data-animation="scaleAppear">
 							<ul class="list1 no-bullets no-top-border no-bottom-border">
 								<li>
 									<div class="media">
 										<div class="media-left"> <i class="rt-icon2-shop highlight2 fontsize_18"></i> </div>
 										<div class="media-body">
-											<h6 class="media-heading grey">Postal Address:</h6> SG HIGHWAY TOPS TECHNOLOGY AHMEDABAD, GUJARAT, INDIA </div>
+											<h6 class="media-heading grey">Postal Address:</h6> SUBHASH COLLAGE JUNAGADH, GUJARAT, INDIA </div>
 									</div>
 								</li>
 								<li>
 									<div class="media">
 										<div class="media-left"> <i class="rt-icon2-phone5 highlight2 fontsize_18"></i> </div>
 										<div class="media-body">
-											<h6 class="media-heading grey">Phone:</h6> +91 9512250495 </div>
+											<h6 class="media-heading grey">Phone:</h6> +91 9662086912 </div>
 									</div>
 								</li>
 								<li>
 									<div class="media">
 										<div class="media-left"> <i class="rt-icon2-stack4 highlight2 fontsize_18"></i> </div>
 										<div class="media-body">
-											<h6 class="media-heading grey">Fax:</h6> +91 7874055981 </div>
+											<h6 class="media-heading grey">Fax:</h6> +91 9664969551 </div>
 									</div>
 								</li>
 								<li>
 									<div class="media">
 										<div class="media-left"> <i class="rt-icon2-mail highlight2 fontsize_18"></i> </div>
 										<div class="media-body greylinks">
-											<h6 class="media-heading grey">Email:</h6> <a href="mailto:your@mail.com">princekumarbhut17@gnu.ac.in</a> </div>
+											<h6 class="media-heading grey">Email:</h6> <a href="service.yourwedy@gmail.com">service.yourwedy@gmail.com</a> </div>
 									</div>
 								</li>
 							</ul>
