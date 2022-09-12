@@ -1,13 +1,5 @@
 <?php
 
-if(isset($_POST['submit'])){
-    $sql2 = "INSERT INTO myapp_bookartist (event_name, budget, address, city, event_date, description, user_id_id, artist_id_id, is_verified) VALUES ('".$_POST['event_name']."','".$_POST['budget']."','".$_POST['address']."','".$_POST['city']."','".$_POST['event_date']."','".$_POST['description']."', '" . $_SESSION['udata']['id'] . "', '" . $_GET['id'] . "', 0)";
-    $q2 = mysql_query($sql2) or die(mysql_error() . $sql2);
-    if($q2){
-        echo '<script>alert("Artist Book Successfully."); window.location="index.php";</script>';
-    }
-}
-
 $sql = "select * from myapp_artist where id='" . $_GET['id'] . "'";
 $q = mysql_query($sql) or die(mysql_error() . $sql);
 $r = mysql_fetch_assoc($q);
@@ -15,6 +7,18 @@ $r = mysql_fetch_assoc($q);
 $sql1 = "select * from myapp_user where id = '" . $r['user_id_id'] . "'";
 $q1 = mysql_query($sql1) or die(mysql_error() . $sql1);
 $r1 = mysql_fetch_assoc($q1);
+
+if(isset($_POST['submit'])){
+    $sql2 = "INSERT INTO myapp_bookartist (event_name, budget, address, city, event_date, description, user_id_id, artist_id_id, is_verified) VALUES ('".$_POST['event_name']."','".$_POST['budget']."','".$_POST['address']."','".$_POST['city']."','".$_POST['event_date']."','".$_POST['description']."', '" . $_SESSION['udata']['id'] . "', '" . $r['user_id_id'] . "', 0)";
+    $q2 = mysql_query($sql2) or die(mysql_error() . $sql2);
+    if($q2){
+        echo '<script>alert("Artist Book Successfully."); window.location="index.php";</script>';
+    }
+}
+
+$sql3 = "select * from myapp_user where id = '" . $_SESSION['udata']['id'] . "'";
+$q3 = mysql_query($sql3) or die(mysql_error() . $sql3);
+$r3 = mysql_fetch_assoc($q3);
 
 ?>
 			<section class="page_breadcrumbs cs gradient section_padding_top_25 section_padding_bottom_25 table_section table_section_md">
@@ -86,7 +90,7 @@ $r1 = mysql_fetch_assoc($q1);
                                         <span class="grey">First Name:</span>
                                         <span class="required">*</span>
                                     </label> 
-                                    <input type="text" class="form-control " name="fname" id="fname" placeholder="" value="<?php echo $r1['fname'] ?>" readonly>
+                                    <input type="text" class="form-control " name="fname" id="fname" placeholder="" value="<?php echo $r3['fname']; ?>" readonly>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -95,7 +99,7 @@ $r1 = mysql_fetch_assoc($q1);
                                         <span class="grey">Last Name:</span>
                                         <span class="required">*</span>	
                                     </label>
-                                    <input type="text" class="form-control " name="lname" id="lname" placeholder="" value="<?php echo $r1['lname'] ?>" readonly> 
+                                    <input type="text" class="form-control " name="lname" id="lname" placeholder="" value="<?php echo $r3['lname']; ?>" readonly> 
                                 </div>
                             </div>
 						    <div class="col-sm-6">
@@ -104,7 +108,7 @@ $r1 = mysql_fetch_assoc($q1);
 										<span class="grey">Email Address:</span>
 										<span class="required">*</span>
                                     </label>
-									<input type="email" class="form-control " name="email" id="email" placeholder="" value="<?php echo $r1['email'] ?>" readonly> 
+									<input type="email" class="form-control " name="email" id="email" placeholder="" value="<?php echo $r3['email']; ?>" readonly> 
 								</div>
 							</div>
 						    <div class="col-sm-6">
@@ -158,7 +162,7 @@ $r1 = mysql_fetch_assoc($q1);
                                         <span class="grey">Phone:</span>
                                         <span class="required">*</span>
 						            </label> 
-                                    <input type="text" class="form-control " name="phone" id="phone" placeholder="" value="<?php echo $r1['contactno'] ?>" readonly> 
+                                    <input type="text" class="form-control " name="phone" id="phone" placeholder="" value="<?php echo $r3['contactno']; ?>" readonly> 
                                 </div>
 					        </div>
 						

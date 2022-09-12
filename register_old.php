@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
 				echo '<script>alert("Registration Sucessfully"); window.location="index.php";</script>';
 			}
 		} else{
-				echo '<script>alert("Password & Confirm Password Not match."); window.location="register.php";</script>';
+				echo '<script>alert("Password & Confirm Password Does Not match."); window.location="register.php";</script>';
 		}
         
     }

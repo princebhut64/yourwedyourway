@@ -2,7 +2,7 @@
 /**
 *** Table Of Contents
 *
-* Bootstrap Overrides
+* Bootstrap Overrid
   - columns
   - container
   - breadcrumbs
@@ -580,7 +580,7 @@ form label + i {
 	position: absolute;
 	font-size: 14px !important;
 	left: 20px;
-	top: 18px;
+	top: 50px;
 	width: 1em;
 	line-height: 1;
 	text-align: center;

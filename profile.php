@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
 		$tempname = $_FILES["profile_pic"]["tmp_name"];
 		$folder = "uploads/" . $filename;
 		move_uploaded_file($tempname, $folder);
-		$sql1 = "insert into myapp_artist (address, postcode, city, State, profile_pic, description, country, category, subcategory, user_id_id) values ('" . $_POST['address'] ."','" . $_POST['postcode'] ."','" . $_POST['city'] ."','" . $_POST['state'] ."','" . $_POST['profile_pic'] ."','" . $_POST['description'] ."','" . $_POST['country'] ."','" . $_POST['category'] ."','" . $_POST['subcategory'] ."','".$_SESSION['udata']['id']."')";
+		$sql1 = "insert into myapp_artist (address, postcode, city, State, profile_pic, description, country, category, subcategory, user_id_id) values ('" . $_POST['address'] ."','" . $_POST['postcode'] ."','" . $_POST['city'] ."','" . $_POST['state'] ."','" . $filename ."','" . $_POST['description'] ."','" . $_POST['country'] ."','" . $_POST['category'] ."','" . $_POST['subcategory'] ."','".$_SESSION['udata']['id']."')";
 		$q1 = mysql_query($sql1) or die(mysql_error() . $sql1);
 		if($q1){
 			echo '<script>alert("Profile Update Successfully"); window.location="index.php";</script>';

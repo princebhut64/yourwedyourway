@@ -22,11 +22,10 @@
 					<div class="row">
 						<div class="col-md-7 col-md-push-5"> <img src="images/about.jpg" alt=""> </div>
 						<div class="col-md-5 col-md-pull-7">
-							<h2 class="section_header"> <span class="small">Story of</span> The Crowd </h2>
+							<h2 class="section_header"> <span class="small">Story of</span> The YourWedYourway </h2>
 							<hr class="header_divider">
-							<p class="small-text big"> Strip steak kielbasa <span class="highlight">The crowd</span> round pork belly picanha kevin. </p>
-							<p> Landjaeger flank capicola salami chicken boudin, biltong frankfurter doner ribeye. Ball tip venison bacon hamburger ribeye frankfurter sirlo. Prosciutto sausage tenderloin, pork tri-tip leberkas ham hock andouille porchetta short loin turducken
-								beef ribs pork chop. Jerky hambur pork belly alcatra ground round. Cupim jerky pork loin corned beef por belly brisket meatloaf. Strip steak kevin doner cow chicken, drumstick venison filet mignon biltong. </p>
+							<p class="small-text big"> Be come <span class="highlight">The YourWedYourway</span></p>
+							<p>  is an Indian Wedding Planning Website and app where you can find the best wedding vendors, with prices and reviews at the click of a button. Whether you are looking to hire wedding planners in India, or looking for the top photographers, or just some ideas and inspiration for your wedding. YourWedYourway can help you solve your wedding planning woes through its unique features. With a checklist, detailed vendor list, inspiration gallery and blog - you won't need to spend hours planning a wedding anymore. </p>
 							<div class="divided-content"> <span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>								<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </div>
 						</div>
 					</div>

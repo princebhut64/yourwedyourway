@@ -2,7 +2,7 @@
 if(isset($_POST['submit'])){
 	$sql1 = "INSERT INTO contact_us (name, email, phone, message,subject) VALUES ('".$_POST['name']."','".$_POST['email']."','".$_POST['phone']."','".$_POST['subject']."','".$_POST['message']."')";
 	$q1 = mysql_query($sql1) or die(mysql_error().$sql1);
-	// echo '<script>alert("Your Record Are Successfully Save"); window.location="index.php";</script>';
+	echo '<script>alert("Your Record Are Successfully Save"); window.location="index.php";</script>';
 }
 ?>
 

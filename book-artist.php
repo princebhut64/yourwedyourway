@@ -26,13 +26,13 @@
 									<div> Showing 1-6 of 36 results </div>
 									<div class="form-group select-group"> 
 										<select aria-required="true" id="category" name="category" class="choice empty form-control">
-											<option value="" disabled selected data-default>All</option>
+											<option value="" selected data-default>All</option>
 											<?php 
 												$sql = "select * from category order by id asc";
 												$q = mysql_query($sql) or die(mysql_error() . $sql);
 												while($r = mysql_fetch_assoc($q)) {
 											?>
-												<option value="<?php echo $r['id'] ?>"><?php echo $r['name'] ?></option>
+												<option value=".<?php echo $r['name'] ?>"><?php echo $r['name'] ?></option>
 											<?php } ?>
 		                    			</select> 
 										<i class="fa fa-angle-down theme_button color1 no_bg_button" aria-hidden="true"></i> 
@@ -49,8 +49,17 @@
 											$sql1 = "select * from myapp_user where id = '" . $r['user_id_id'] . "'";
 											$q1 = mysql_query($sql1) or die(mysql_error() . $sql1);
 											$r1 = mysql_fetch_assoc($q1);
+
+											$sql2 = "select * from myapp_artist where user_id_id = '" . $r['user_id_id'] . "'";
+											$q2 = mysql_query($sql2) or die(mysql_error() . $sql2);
+											$r2 = mysql_fetch_assoc($q2);
+
+											$sql3 = "select * from category where id = '" . $r2['category'] . "'";
+											$q3 = mysql_query($sql3) or die(mysql_error() . $sql3);
+											$r3 = mysql_fetch_assoc($q3);
+
 									?>
-									<li class="product type-product">
+									<li class="product type-product <?php echo $r3['name'] ?>">
 										<div class="vertical-item content-padding text-center">
 											<div class="item-media with_background"> <img src="uploads/<?php echo $r['profile_pic'] ?>" alt="" style="width: 100%; height: 450px;"/>
 												<div class="media-links no-overlay"> <a href="#0" class="abs-link"></a> </div>
@@ -80,7 +89,7 @@
 								</ul>
 							</div>
 							<!-- eof .columns-* -->
-							<div class="row">
+							<!-- <div class="row">
 								<div class="col-sm-12 text-center">
 									<ul class="pagination">
 										<li class="disabled"><a href="#"><span class="sr-only">Prev</span><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
@@ -91,7 +100,7 @@
 										<li><a href="#"><span class="sr-only">Next</span><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
 									</ul>
 								</div>
-							</div>
+							</div> -->
 						</div>
 						<!-- eof aside sidebar -->
 					</div>

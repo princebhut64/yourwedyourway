@@ -94,11 +94,10 @@
 					<div class="row">
 						<div class="col-md-7 col-md-push-5"> <img src="images/about.jpg" alt=""> </div>
 						<div class="col-md-5 col-md-pull-7">
-							<h2 class="section_header"> <span class="small">Story of</span> The Crowd </h2>
+							<h2 class="section_header"> <span class="small">Story of</span> The YourWedYourway </h2>
 							<hr class="header_divider">
-							<p class="small-text big"> Strip steak kielbasa <span class="highlight">The crowd</span> round pork belly picanha kevin. </p>
-							<p> Landjaeger flank capicola salami chicken boudin, biltong frankfurter doner ribeye. Ball tip venison bacon hamburger ribeye frankfurter sirlo. Prosciutto sausage tenderloin, pork tri-tip leberkas ham hock andouille porchetta short loin turducken
-								beef ribs pork chop. Jerky hambur pork belly alcatra ground round. Cupim jerky pork loin corned beef por belly brisket meatloaf. </p>
+							<p class="small-text big">Be Come<span class="highlight">The YourWedYourway</span></p>
+							<p>YourWedYourway is an Indian Wedding Planning Website and app where you can find the best wedding vendors, with prices and reviews at the click of a button. Whether you are looking to hire wedding planners in India, or looking for the top photographers, or just some ideas and inspiration for your wedding. YourWedYourway can help you solve your wedding planning woes through its unique features. With a checklist, detailed vendor list, inspiration gallery and blog - you won't need to spend hours planning a wedding anymore. </p>
 							<div class="content-justify vertical-center content-margins topmargin_25"> <a href="about.php" class="theme_button color min_width_button">Read more</a> <span class="divided-content outside-dividers">
 						<span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>								<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </span>
 							</div>
@@ -112,7 +111,7 @@
 						<div class="col-sm-12 text-center"> <a href="https://youtu.be/4Q5smpIjPR4" class="theme_button inverse round_button margin_0" data-gal="prettyPhoto[gal-video]">
 					<i class="fa fa-caret-right" aria-hidden="true"></i>
 				</a>
-							<h2 class="section_header bottommargin_0 topmargin_30"> Ellie Goulding - Love Me Like You Do (Glastonbury 2016)</h2>
+							<h2 class="section_header bottommargin_0 topmargin_30"> Ellie Goulding - Love Me Like You Do ()</h2>
 							<h3 class="margin_0">	Performing Arts Festival 2016</h3>
 							<h5 class="margin_0">Pilton, Somerset, England (Full Concert) (HD)</h5>
 						</div>
@@ -420,7 +419,7 @@
 							<p class="small-text big">Music can change lives. Whether you are having a good or a bad day, the power of music can change your mood.</p>
 							<div class="owl-carousel with_shadow_items text-left topmargin_60" data-responsive-lg="3">
 								<article class="vertical-item content-padding with_shadow loop-color">
-									<div class="item-media"> <img src="images/gallery/18.jpg" alt="">
+									<div class="item-media"> <img src="images/gallery/03.jpg" alt="">
 										<div class="media-links"> <a href="blog-single-right.php" class="abs-link"></a> </div>
 									</div>
 									<div class="item-content">
