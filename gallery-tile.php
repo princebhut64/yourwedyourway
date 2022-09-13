@@ -20,6 +20,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-sm-12">
+						<div class="filters isotope_filters text-center darklinks"><center>Browse pictures from real weddings shared by couples on WedMeGood. Know latest wedding trends, outfit ideas, vendors chosen by real brides & grooms in different cities and culture.</center></div>
 							<div class="filters isotope_filters text-center darklinks"> <a href="#" data-filter="*" class="selected">All</a> <a href="#" data-filter=".cat1">Category 1</a> <a href="#" data-filter=".cat2">Category 2</a> <a href="#" data-filter=".cat3">Category 3</a> <a href="#" data-filter=".cat4">Category 4</a> </div>
 							<div class="isotope_container isotope row masonry-layout" data-filters=".isotope_filters">
 								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 cat3">
@@ -30,7 +31,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -42,7 +43,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -54,7 +55,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -66,7 +67,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -78,7 +79,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -90,7 +91,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -102,7 +103,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -114,7 +115,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -126,7 +127,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -138,7 +139,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -150,7 +151,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -162,7 +163,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -174,7 +175,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>
@@ -186,7 +187,7 @@
 											</div>
 										</div>
 										<div class="item-content darken_gradient">
-											<h4 class="poppins"> <a href="gallery-single.php">Consetetur sadipscing elitr, sed diam nonumy</a> </h4>
+											<h4 class="poppins"> <a href="gallery-single.php"></a> </h4>
 										</div>
 									</div>
 								</div>

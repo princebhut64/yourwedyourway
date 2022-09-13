@@ -19,7 +19,7 @@
 
 <!-- Mirrored from html.modernwebtemplates.com/thecrowd/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Mar 2021 14:42:56 GMT -->
 <head>
-	<title>Artist Hub</title>
+	<title>Your Wed Your Way</title>
 	<meta charset="utf-8">
 	<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -227,7 +227,7 @@
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-4 text-center text-sm-right">
-										<h5 class="margin_0"> <span class="small">Get the latest</span><br>Artist Hub News</h5>
+										<h5 class="margin_0"> <span class="small">Get the latest</span><br>Your Wed Your Way News</h5>
 									</div>
 								</div>
 							</div>
@@ -238,10 +238,10 @@
 							<div class="widget widget_text">
 								<h4 class="widget-title"> Our new albums </h4>
 								<ul class="greylinks list-unstyled">
-									<li> <a href="#0">Let's Build a Fire</a> </li>
-									<li> <a href="#0">World's Apart</a> </li>
-									<li> <a href="#0">Shake the Shudder</a> </li>
-									<li> <a href="#0">Life in Other People's Dreams</a> </li>
+									<li> <a href="index.php?p=about">Happy Sweet</a> </li>
+									<li> <a href="index.php?p=albums">World's Apart</a> </li>
+									<li> <a href="index.php?p=events-left">Events</a> </li>
+									<li> <a href="index.php?p=contact">Contact Us</a> </li>
 								</ul>
 							</div>
 						</div>
@@ -256,10 +256,10 @@
 							<div class="widget widget_text">
 								<h4 class="widget-title"> Contact us </h4>
 								<ul class="list-unstyled greylinks">
-									<li> SG Highway Isckon Chross Road,Gujarat,India </li>
-									<li> +91 9512250495 </li>
-									<li> +91 7879180456 </li>
-									<li> <a href="Princekumarbhut17@gnu.ac.in">artisthub@gmail.com</a> </li>
+									<li> DR. SUBHASH COLLAGE, JUNAGADH </li>
+									<li> +91 9662086912 </li>
+									<li> +91 9664969551 </li>
+									<li> <a href="service.yourwedy@gmail.com">service.yourwedy@gmail.com</a> </li>
 								</ul>
 							</div>
 						</div>
@@ -271,7 +271,7 @@
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<div class="divided-content bottommargin_5"> <span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>								<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </div>
-							<p class="small-text big-spacing">&copy; Copyright 2021. All Rights Reserved.</p>
+							<p class="small-text big-spacing">&copy; Copyright 2022. All Rights Reserved.</p>
 						</div>
 					</div>
 				</div>
@@ -284,7 +284,7 @@
 	<script src="js/main.js"></script>
 	<script src="js/switcher.js"></script>
 	<!-- Google Map Script -->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0pr5xCHpaTGv12l73IExOHDJisBP2FK4"></script>
+	<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0pr5xCHpaTGv12l73IExOHDJisBP2FK4"></script> -->
 </body>
 
 

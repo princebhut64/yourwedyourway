@@ -108,12 +108,12 @@
 			<section id="featured-video" class="ds background_cover section_padding_top_150 section_padding_bottom_150 columns_margin_top_30 columns_margin_bottom_30">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-12 text-center"> <a href="https://youtu.be/4Q5smpIjPR4" class="theme_button inverse round_button margin_0" data-gal="prettyPhoto[gal-video]">
+						<div class="col-sm-12 text-center"> <a href="https://youtu.be/FpZxJ7KPrWY" class="theme_button inverse round_button margin_0" data-gal="prettyPhoto[gal-video]">
 					<i class="fa fa-caret-right" aria-hidden="true"></i>
 				</a>
-							<h2 class="section_header bottommargin_0 topmargin_30"> Ellie Goulding - Love Me Like You Do ()</h2>
-							<h3 class="margin_0">	Performing Arts Festival 2016</h3>
-							<h5 class="margin_0">Pilton, Somerset, England (Full Concert) (HD)</h5>
+							<h2 class="section_header bottommargin_0 topmargin_30"> Most Romantic Groom dance. </h2>
+							<h3 class="margin_0">Jinal & Binit</h3>
+							<h5 class="margin_0">We can't stop going awwwww over Binit & the precious expression on Jinal's face is simply priceless! 😍</h5>
 						</div>
 					</div>
 				</div>
@@ -129,12 +129,12 @@
 								<div class="vertical-item content-absolute hover-entry-content">
 									<div class="item-media"> <img src="images/team/01.jpg" alt=""> </div>
 									<div class="item-content cs transp_gradient_bg">
-										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Sophia Horton</a> </h4>
-										<p class="small-text">Singer</p>
+										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Ketki & Jaiveer</a> </h4>
+										<p class="small-text">Jaipur</p>
 										<div class="divided-content darklinks"> <span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>											<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </div>
 										<div class="entry-content">
 											<div class="toppadding_20">
-												<p class="content-3lines-ellipsis"> Landjaeger flank capicola salami chicken boudin, biltong frankfurter doner ribeye. Ball tip venison bacon hamburger. </p>
+												<p class="content-3lines-ellipsis"> Wishing you a lifetime of love and happiness</p>
 												<p class="topmargin_30"> <a href="index.php?p=team-single" class="theme_button inverse min_width_button margin_0">View Profile</a> </p>
 											</div>
 										</div>
@@ -143,12 +143,12 @@
 								<div class="vertical-item content-absolute hover-entry-content">
 									<div class="item-media"> <img src="images/team/02.jpg" alt=""> </div>
 									<div class="item-content cs transp_gradient_bg">
-										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Carlos Tyler</a> </h4>
-										<p class="small-text">bass guitar</p>
+										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Shivani & Yash</a> </h4>
+										<p class="small-text">Mumbai</p>
 										<div class="divided-content darklinks"> <span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>											<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </div>
 										<div class="entry-content">
 											<div class="toppadding_20">
-												<p class="content-3lines-ellipsis"> Landjaeger flank capicola salami chicken boudin, biltong frankfurter doner ribeye. Ball tip venison bacon hamburger. </p>
+												<p class="content-3lines-ellipsis"> May the years ahead be filled with lasting joy</p>
 												<p class="topmargin_30"> <a href="index.php?p=team-single" class="theme_button inverse min_width_button margin_0">View Profile</a> </p>
 											</div>
 										</div>
@@ -157,12 +157,12 @@
 								<div class="vertical-item content-absolute hover-entry-content">
 									<div class="item-media"> <img src="images/team/03.jpg" alt=""> </div>
 									<div class="item-content cs transp_gradient_bg">
-										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Tomas Young</a> </h4>
-										<p class="small-text">guitar</p>
+										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Kavya & Priyank</a> </h4>
+										<p class="small-text">Dehradun</p>
 										<div class="divided-content darklinks"> <span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>											<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </div>
 										<div class="entry-content">
 											<div class="toppadding_20">
-												<p class="content-3lines-ellipsis"> Landjaeger flank capicola salami chicken boudin, biltong frankfurter doner ribeye. Ball tip venison bacon hamburger. </p>
+												<p class="content-3lines-ellipsis">May the true love you share today grow stronger as you grow old together</p>
 												<p class="topmargin_30"> <a href="index.php?p=team-single" class="theme_button inverse min_width_button margin_0">View Profile</a> </p>
 											</div>
 										</div>
@@ -171,12 +171,12 @@
 								<div class="vertical-item content-absolute hover-entry-content">
 									<div class="item-media"> <img src="images/team/04.jpg" alt=""> </div>
 									<div class="item-content cs transp_gradient_bg">
-										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Lottie Dean</a> </h4>
-										<p class="small-text">guitar</p>
+										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Elisha & Jeel</a> </h4>
+										<p class="small-text">Pune</p>
 										<div class="divided-content darklinks"> <span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>											<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </div>
 										<div class="entry-content">
 											<div class="toppadding_20">
-												<p class="content-3lines-ellipsis"> Landjaeger flank capicola salami chicken boudin, biltong frankfurter doner ribeye. Ball tip venison bacon hamburger. </p>
+												<p class="content-3lines-ellipsis">"Wishing you joy, love and happiness on your wedding day and as you begin your new life together.</p>
 												<p class="topmargin_30"> <a href="index.php?p=team-single" class="theme_button inverse min_width_button margin_0">View Profile</a> </p>
 											</div>
 										</div>
@@ -185,12 +185,12 @@
 								<div class="vertical-item content-absolute hover-entry-content">
 									<div class="item-media"> <img src="images/team/05.jpg" alt=""> </div>
 									<div class="item-content cs transp_gradient_bg">
-										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Mary Austin</a> </h4>
-										<p class="small-text">bass guitar</p>
+										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Maruri & Shlip</a> </h4>
+										<p class="small-text">Mumbai</p>
 										<div class="divided-content darklinks"> <span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>											<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </div>
 										<div class="entry-content">
 											<div class="toppadding_20">
-												<p class="content-3lines-ellipsis"> Landjaeger flank capicola salami chicken boudin, biltong frankfurter doner ribeye. Ball tip venison bacon hamburger. </p>
+												<p class="content-3lines-ellipsis">Glad we/I got to break out our/my dance moves in honor of such a great couple. Lots of love to you both!</p>
 												<p class="topmargin_30"> <a href="index.php?p=team-single" class="theme_button inverse min_width_button margin_0">View Profile</a> </p>
 											</div>
 										</div>
@@ -199,12 +199,12 @@
 								<div class="vertical-item content-absolute hover-entry-content">
 									<div class="item-media"> <img src="images/team/06.jpg" alt=""> </div>
 									<div class="item-content cs transp_gradient_bg">
-										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Alex Wise</a> </h4>
-										<p class="small-text">singer</p>
+										<h4 class="entry-title bottommargin_0"> <a href="index.php?p=team-single">Krishna & Rohit</a> </h4>
+										<p class="small-text">Ahmedabad</p>
 										<div class="divided-content darklinks"> <span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>											<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </div>
 										<div class="entry-content">
 											<div class="toppadding_20">
-												<p class="content-3lines-ellipsis"> Landjaeger flank capicola salami chicken boudin, biltong frankfurter doner ribeye. Ball tip venison bacon hamburger. </p>
+												<p class="content-3lines-ellipsis">May the One who brought you together bless your marriage, enrich your lives and deepen your love throughout the years</p>
 												<p class="topmargin_30"> <a href="index.php?p=team-single" class="theme_button inverse min_width_button margin_0">View Profile</a> </p>
 											</div>
 										</div>
@@ -218,7 +218,7 @@
 			<section id="photos" class="ls ms section_padding_top_65 columns_padding_0">
 				<div class="container-fluid">
 					<div class="col-sm-12 bottommargin_0">
-						<div class="filters carousel_filters bottommargin_40 divided-content"><a href="#" data-filter=".artists">Artists</a> <a href="#" data-filter=".new">New</a>
+						<div class="filters carousel_filters bottommargin_40 divided-content"><a href="#" data-filter=".artists">LOVE</a>
 						</div>
 						<div class="owl-carousel owl-center-scale gallery-carousel" data-nav="true" data-dots="false" data-margin="0" data-center="true" data-loop="true" data-responsive-sm="2" data-responsive-xs="2" data-responsive-xxs="1" data-filters=".carousel_filters">
 							<div class="vertical-item music">
@@ -313,9 +313,9 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2 class="section_header">Featured Music Albums</h2>
+							<h2 class="section_header">Featured Wedding Albums</h2>
 							<hr class="header_divider">
-							<p class="small-text big">Check out our newest music albums. You can easily purchase our music albums on <span class="highlight3">iTunes</span> or <span class="highlight3">Google Play</span>.</p>
+							<p class="small-text big">Check out our newest wedding albums. You can easily book our vendors on special day <span class="highlight3">iTunes</span> or <span class="highlight3">Google Play</span>.</p>
 						</div>
 					</div>
 					<div class="row topmargin_30">
@@ -335,8 +335,8 @@
 									</div>
 								</div>
 								<div class="item-content topmargin_30">
-									<h4 class="entry-title bottommargin_0"> <a href="single-album.php">World's apart (2016)</a> </h4> <span class="price">
-							$99,85
+									<h4 class="entry-title bottommargin_0"> <a href="https://youtu.be/xFISC-TJmIc">ANISHA WEDDING BOLLYWOOD Performance (2021)</a> </h4> <span class="price">
+							Free Watch
 						</span> </div>
 							</div>
 						</div>
@@ -356,8 +356,8 @@
 									</div>
 								</div>
 								<div class="item-content topmargin_30">
-									<h4 class="entry-title bottommargin_0"> <a href="single-album.php">Shake the Shudder (2017)</a> </h4> <span class="price">
-							$160,20
+									<h4 class="entry-title bottommargin_0"> <a href="https://youtu.be/ovIqJvUUnfs"></a>Vinay Neha | Surprise Family Sangeet Dance Performance </h4> <span class="price">
+							Free Watch
 						</span> </div>
 							</div>
 						</div>
@@ -377,8 +377,8 @@
 									</div>
 								</div>
 								<div class="item-content topmargin_30">
-									<h4 class="entry-title bottommargin_0"> <a href="single-album.php">Let's Build A Fire (2017)</a> </h4> <span class="price">
-							$158,25
+									<h4 class="entry-title bottommargin_0"> <a href="https://youtu.be/xiV308hJKdA">Nikita Rahul Bride & Groom Wedding Entry Dance Performance</a> </h4> <span class="price">
+							Free Watch
 						</span> </div>
 							</div>
 						</div>
@@ -425,7 +425,7 @@
 									<div class="item-content">
 										<header class="entry-header">
 											<div class="entry-meta small-text content-justify"> <span class="categories-links highlightlinks">
-										<a href="#0">Music</a>
+										<a href="#0">marriage</a>
 									</span> <span class="greylinks">
 										<a href="blog-single-right.php">
 											<time datetime="2017-10-03T08:50:40+00:00">
@@ -433,10 +433,10 @@
 											</time>
 										</a>
 									</span> </div>
-											<h4 class="entry-title"> <a href="blog-single-right.php">New Album Coming Soon On 5th November</a> </h4>
+											<h4 class="entry-title"> <a href="blog-single-right.php"> RAJAT & SHIVANI PRE-WEDDING SHOOT</a> </h4>
 										</header>
 										<div class="entry-content">
-											<p> Bresaola pork belly brisket jowl beef pork loin ground round alcatra t-bone short loin. Kielbasa chicken alcatra. </p>
+											<p>Emotion is the true substance of wedding photography” and we at Sunny Dhiman Photography strongly believe in the same. Wedding photography to us is to witness your beautiful story and capture it with its true essence. We listen to what you want and then create beautiful memories of your dream wedding </p>
 										</div>
 										<footer class="entry-footer small-text greylinks inline-content"> <a href="#0">
 									<i class="fa fa-heart rightpadding_5" aria-hidden="true"></i>
@@ -457,7 +457,7 @@
 									<div class="item-content">
 										<header class="entry-header">
 											<div class="entry-meta small-text content-justify"> <span class="categories-links highlightlinks">
-										<a href="#0">songs</a>
+										<a href="#0">place & hotels</a>
 									</span> <span class="greylinks">
 										<a href="blog-single-right.php">
 											<time datetime="2017-10-03T08:50:40+00:00">
@@ -465,10 +465,10 @@
 											</time>
 										</a>
 									</span> </div>
-											<h4 class="entry-title"> <a href="blog-single-right.php">Oficial video for the new song “My Baby”</a> </h4>
+											<h4 class="entry-title"> <a href="blog-single-right.php">The Oberoi Udaivilas, Udaipur</a> </h4>
 										</header>
 										<div class="entry-content">
-											<p>Swine shankle ham hock tongue tenderlo. Pork loin swine alcatra short ribs sausage rumpribs tongue rump.</p>
+											<p>best wish for The Oberoi hotel's a successful marriage requires falling in love many times, always with the same person.</p>
 										</div>
 										<footer class="entry-footer small-text greylinks inline-content"> <a href="#0">
 									<i class="fa fa-heart rightpadding_5" aria-hidden="true"></i>
@@ -489,7 +489,7 @@
 									<div class="item-content">
 										<header class="entry-header">
 											<div class="entry-meta small-text content-justify"> <span class="categories-links highlightlinks">
-										<a href="#0">concerts</a>
+										<a href="#0">Wedding</a>
 									</span> <span class="greylinks">
 										<a href="blog-single-right.php">
 											<time datetime="2017-10-03T08:50:40+00:00">
@@ -497,10 +497,10 @@
 											</time>
 										</a>
 									</span> </div>
-											<h4 class="entry-title"> <a href="blog-single-right.php">SUnday’s concert in New York at 7 p.m.</a> </h4>
+											<h4 class="entry-title"> <a href="blog-single-right.php">Auli – For Wedding Among The Mountains</a> </h4>
 										</header>
 										<div class="entry-content">
-											<p>Pork loin salami shankle spare ribs ground round venison bacon. Beef cow brisket turducken, t-bone filet mignon.</p>
+											<p>I love you without knowing how, or when, or from where. I love you simply, without problems or pride: I love you in this way because I do not know any other way of loving but this, in which there is no I or you, so intimate that your hand upon my chest is my hand, so intimate then when I fall asleep your eyes close</p>
 										</div>
 										<footer class="entry-footer small-text greylinks inline-content"> <a href="#0">
 									<i class="fa fa-heart rightpadding_5" aria-hidden="true"></i>
